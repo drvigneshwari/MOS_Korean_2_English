@@ -1,0 +1,14 @@
+Project 01 | Test Task 01
+
+Task: To scrap korean sentences from website and store in database
+
+Please find the below mentioned details related to implementation of the project
+
+Inferface - Jupyter Notebook (Anaconda IDE)
+Database - MS SQL ( SQL Server 2019 |  Microsoft SQL Server Management Studio)
+Libraries installed through Anaconda prompt
+
+Website used for scraping - Naver.com
+
+
+ 
