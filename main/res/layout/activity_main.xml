@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="com.example.mos_webscrap_01.MainActivity">
+
+    <Button
+        android:id="@+id/btn_Scrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scrap Content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/btn_Scrap"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Scrapped Content"/>
+
+    <TextView
+        android:id="@+id/txt_ScrapResult"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="100dp"
+        android:text="Result ..."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/btn_Scrap"
+        android:scrollbars="vertical"
+        android:textSize="17sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/txt_ScrapResult"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Formatted Content"/>
+    <TextView
+        android:id="@+id/txt_FormattedResult"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="100dp"
+        android:text="Formatted Result ..."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt_ScrapResult"
+        android:scrollbars="vertical"
+        android:textSize="17sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txt_FormattedResult"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="List of Words"/>
+
+    <TextView
+        android:id="@+id/txt_list"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="100dp"
+        android:hint="List of Words ..."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt_FormattedResult"
+        android:scrollbars="vertical"
+        android:textSize="17sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txt_lblDB"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txt_list"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Data from Database"/>
+
+    <TextView
+        android:id="@+id/txt_DBContent"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="100dp"
+        android:text="Data from Database"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:scrollbars="vertical"
+        android:layout_below="@id/txt_lblDB"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/txt_Count"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="20dp"
+        android:text="Word Count"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt_DBContent"
+        android:textSize="17sp"/>
+
+</RelativeLayout>
