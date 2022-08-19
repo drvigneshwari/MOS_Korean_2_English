@@ -1,3 +1,3 @@
-# MOS_Test
-This repository has the files related to MOS test tasks
+# MOS
+This repository has the files related to MOS tasks
 
